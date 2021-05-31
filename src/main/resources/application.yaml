@@ -1,0 +1,7 @@
+keycloak:
+  realm: example
+  resource: spring-boot
+  autodetect-bearer-only: true
+  auth-server-url: http://localhost:8080/auth
+server:
+  port: 8081
